@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>CV Domingo Ugas - Product</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  @page { size: A4; margin: 14mm 15mm 14mm 15mm; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.34;
+    color: #262626;
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .header { display: flex; gap: 22px; align-items: center; margin-bottom: 14px; }
+  .photo {
+    width: 112px; height: 140px; object-fit: cover; flex-shrink: 0;
+    border-radius: 2px; background: #dfe8f3;
+  }
+  h1 { margin: 0; font-size: 24pt; font-weight: 700; color: #1d4f7c; letter-spacing: 0.3px; }
+  .title { margin: 4px 0 8px; font-size: 13pt; color: #1d4f7c; }
+  .contact { margin: 0; font-size: 10.2pt; line-height: 1.55; }
+  .contact a { color: #262626; text-decoration: underline; }
+
+  h2 {
+    margin: 13px 0 6px; padding-bottom: 3px;
+    font-size: 12.5pt; font-weight: 700; color: #1d4f7c;
+    border-bottom: 2px solid #9fc2e6;
+    break-after: avoid;
+  }
+  p { margin: 0; }
+  .skills p { margin: 1px 0; }
+  b { font-weight: 700; }
+
+  .job { margin-top: 8px; break-inside: avoid; }
+  .job-title { font-weight: 700; }
+  .job-date { margin: 1px 0 3px; }
+  .job-ctx { font-style: italic; color: #4a4a4a; margin-bottom: 2px; }
+  ul { margin: 2px 0 0; padding-left: 20px; }
+  li { margin: 1px 0; }
+
+  .edu { margin-bottom: 5px; break-inside: avoid; }
+  .muted { color: #4a4a4a; }
+  .sub { margin: 5px 0 0 14px; break-inside: avoid; }
+  .sub-title { font-weight: 700; color: #1d4f7c; }
+  .sub-title span { font-weight: 400; color: #4a4a4a; }
+  .job.big { break-inside: auto; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img class="photo" src="foto-domingo.jpg" alt="Domingo Ugas" />
+  <div>
+    <h1>DOMINGO UGAS</h1>
+    <p class="title">Product Owner | Analista Funcional (técnico: Vue, Node, SQL, IA)</p>
+    <p class="contact">
+      Email: ugasdomingo@gmail.com · Tel: +34 614 77 00 15 · Madrid, España<br />
+      LinkedIn: <a href="https://www.linkedin.com/in/ugasdomingo/">linkedin.com/in/ugasdomingo</a> ·
+      GitHub: <a href="https://github.com/ugasdomingo">github.com/ugasdomingo</a><br />
+      Portfolio: <a href="https://domingougas-product.vercel.app">domingougas-product.vercel.app</a>
+    </p>
+  </div>
+</div>
+
+<h2>RESUMEN PROFESIONAL:</h2>
+<p>
+  Product Owner y Analista Funcional con perfil técnico y más de 5 años creando productos digitales de principio a fin:
+  desde entender el problema de negocio con el cliente y definir requisitos, hasta construir, lanzar y medir la
+  solución en producción. He llevado productos para clientes reales con <b>resultados medibles</b>: <b>−90% en el
+  tiempo de onboarding</b> de una consulta de psicología y <b>+20% de conversión</b> en la web de una agencia de
+  automatización. Trabajo en entornos ágiles (<b>Scrum, Kanban, Jira</b>) y, como también programo
+  (<b>Vue.js, Node.js, SQL</b>), hablo el idioma de negocio y el de desarrollo. Mi base es de negocio: formación en
+  administración y marketing, consultoría y dirección de cuentas, y auditoría en <b>KPMG</b> y <b>WPP</b>.
+  Graduado en <b>Data Science &amp; Machine Learning</b> (4Geeks Academy) y aplicando <b>IA y automatización</b>
+  (agentes, n8n, Make) a procesos de negocio.
+</p>
+
+<h2>COMPETENCIAS:</h2>
+<div class="skills">
+  <p><b>Producto &amp; Análisis funcional</b>: Levantamiento de requisitos, definición de alcance y MVP, historias de usuario, priorización de backlog, UX, funnels de conversión, métricas y KPIs</p>
+  <p><b>Metodologías</b>: Scrum, Kanban, Jira</p>
+  <p><b>Negocio &amp; Clientes</b>: Gestión de clientes y stakeholders, preventa y cierre de contratos, marketing digital, SEO/GEO, auditoría y análisis financiero</p>
+  <p><b>Datos &amp; IA</b>: SQL, Python, Pandas, Machine Learning, NLP, agentes IA, RAG, MCP, n8n, Make, automatización de procesos</p>
+  <p><b>Técnico</b>: Vue.js 3, React.js, TypeScript, Node.js, Express, REST APIs, MongoDB, PostgreSQL, MySQL, Docker, CI/CD, Vercel, Git</p>
+</div>
+
+<h2>EXPERIENCIA PROFESIONAL:</h2>
+
+<div class="job big">
+  <div class="job-title">Product Owner &amp; Full Stack Developer – DigiNode</div>
+  <div class="job-date">Oct 2023 – Actualidad</div>
+  <div class="job-ctx">Agencia de producto digital, IA y automatización · midiginode.com</div>
+  <ul>
+    <li>Definición de la visión, el alcance y la evolución de la plataforma de la agencia y de los productos para clientes, desde el <b>levantamiento de requisitos</b> hasta el lanzamiento.</li>
+    <li>Aumento del <b>20% en la conversión</b> tras proponer, construir y lanzar una <b>demo interactiva de IA y automatización</b> en la home.</li>
+    <li>Diseño de <b>dashboards privados</b> para clientes y administradores a partir de sus flujos de gestión diarios.</li>
+    <li>Decisión de evolucionar a una <b>arquitectura desacoplada</b> (API REST en Node.js + frontend Vue.js) para iterar cada parte por separado.</li>
+  </ul>
+
+  <div class="sub">
+    <div class="sub-title">Lucía Díaz · Psicología <span>· luciadiaz.es · Ene 2026 – Jun 2026</span></div>
+    <ul>
+      <li><b>Levantamiento de requisitos</b> con la cliente y traducción de su proceso de consulta (captación, evaluación, cita y pago) en un producto digital a medida.</li>
+      <li>Reducción del <b>90% del tiempo de onboarding</b> de pacientes automatizando test psicológicos, historial clínico y consentimiento con <b>firma digital</b>.</li>
+      <li><b>Nueva línea de ingresos</b>: área privada para que la profesional publique y venda formaciones e infoproductos de forma autónoma.</li>
+      <li><b>Autoservicio para pacientes</b>: integración de pasarela de pago y Cal.com para gestionar pagos y citas sin intermediarios.</li>
+    </ul>
+  </div>
+
+  <div class="sub">
+    <div class="sub-title">Webs corporativas <span>· 2024 – 2026</span></div>
+    <ul>
+      <li>Ciclo completo con el cliente (requisitos, propuesta, desarrollo, entrega y mantenimiento) de sitios con foco en <b>SEO/GEO</b> y rendimiento: Fusion Force, Ibercondor, Global Datawork y María D'Alessio, entre otros.</li>
+    </ul>
+  </div>
+
+  <div class="sub">
+    <div class="sub-title">Silicity Campus · Plataforma educativa <span>· silicitycampus.com · Nov 2023 – Abr 2025</span></div>
+    <ul>
+      <li>Diseño funcional de un sistema de <b>gamificación</b> (puntos, gremios y grupos de estudio por temas) orientado a la participación de los estudiantes.</li>
+      <li>Definición de los módulos de becas, <b>vitrina de talento</b> para empresas e inversores y chat en tiempo real.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-title">Consultor, Desarrollador Web y Director de Cuentas – DigiEmpresas</div>
+  <div class="job-date">2017 – 2023</div>
+  <ul>
+    <li>Captación, <b>negociación y cierre de contratos</b> de servicios digitales.</li>
+    <li>Interlocución entre clientes y equipo interno: planificación de <b>marketing</b> y <b>reportes de resultados</b> para clientes.</li>
+    <li><b>Consultoría y desarrollo web</b> para clientes: levantamiento de requisitos, propuesta, desarrollo y entrega.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-title">Asistente Administrativo – Tiendas Ama de Casa</div>
+  <div class="job-date">2015 – 2016</div>
+  <ul>
+    <li>Auditoría y depuración de cuentas contables.</li>
+    <li>Funciones administrativas para un total de <b>7 empresas</b> del grupo.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-title">Auxiliar Contable – J. Walter Thompson (WPP)</div>
+  <div class="job-date">2012 – 2013</div>
+  <ul>
+    <li><b>Auditoría interna</b> y funciones de auxiliar contable para empresas del grupo: Ogilvy, Mindshare, 141 Coimbra, J. Walter Thompson y G2.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-title">Auditor Junior – KPMG</div>
+  <div class="job-date">2010 – 2011</div>
+  <ul>
+    <li><b>Auditoría de banca</b> e instituciones financieras.</li>
+    <li>Auditoría de cartera de crédito y de la cuenta "Otros Activos".</li>
+  </ul>
+</div>
+
+<h2>EDUCACIÓN:</h2>
+<div class="edu">
+  <p><b>Data Science &amp; Machine Learning</b> – 4Geeks Academy (Bootcamp intensivo, 18 semanas)</p>
+  <p class="muted">Mar 2026 – Jul 2026 · Python, SQL, análisis exploratorio, estadística, Machine Learning, NLP y deploy de modelos.</p>
+</div>
+<div class="edu">
+  <p><b>FullStack Development</b> – Platzi (Online) · <span class="muted">2021 – 2024</span></p>
+</div>
+<div class="edu">
+  <p><b>Técnico Superior en Administración – Mención Marketing</b> – Universidad Católica Andrés Bello · <span class="muted">2009 – 2011</span></p>
+</div>
+<div class="edu">
+  <p><b>Técnico Superior en Contabilidad Pública</b> – Universidad Católica Andrés Bello · <span class="muted">2006 – 2009</span></p>
+</div>
+
+<h2>IDIOMAS</h2>
+<p>Español: Nativo · Inglés: Intermedio</p>
+
+</body>
+</html>
